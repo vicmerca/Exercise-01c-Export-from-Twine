@@ -1,0 +1,116 @@
+
+
+{
+  "passages": [
+    {
+      "text": "You are at the bridge. Where do you go?\n\n[[Go to the Field|Field]]\n\n[[Go to the Building|Building]]\n\n[[Go to the River|River]]",
+      "links": [
+        {
+          "name": "Go to the Field|Field",
+          "link": "Go to the Field|Field",
+          "broken": true
+        },
+        {
+          "name": "Go to the Building|Building",
+          "link": "Go to the Building|Building",
+          "broken": true
+        },
+        {
+          "name": "Go to the River|River",
+          "link": "Go to the River|River",
+          "broken": true
+        }
+      ],
+      "name": "Bridge",
+      "pid": "1",
+      "position": {
+        "x": "412",
+        "y": "188"
+      }
+    },
+    {
+      "text": "You are at the field. Where do you go?\n\n[[Go to the Bridge|Bridge]]\n\n[[Go to the Building|Building]]\n\n[[Go to the River|River]]",
+      "links": [
+        {
+          "name": "Go to the Bridge|Bridge",
+          "link": "Go to the Bridge|Bridge",
+          "broken": true
+        },
+        {
+          "name": "Go to the Building|Building",
+          "link": "Go to the Building|Building",
+          "broken": true
+        },
+        {
+          "name": "Go to the River|River",
+          "link": "Go to the River|River",
+          "broken": true
+        }
+      ],
+      "name": "Field",
+      "pid": "2",
+      "position": {
+        "x": "538",
+        "y": "272"
+      }
+    },
+    {
+      "text": "You are at the Building. Where do you go?\n\n[[Go to the Field|Field]]\n\n[[Go to the Bridge|Bridge]]\n\n[[Go to the River|River]]",
+      "links": [
+        {
+          "name": "Go to the Field|Field",
+          "link": "Go to the Field|Field",
+          "broken": true
+        },
+        {
+          "name": "Go to the Bridge|Bridge",
+          "link": "Go to the Bridge|Bridge",
+          "broken": true
+        },
+        {
+          "name": "Go to the River|River",
+          "link": "Go to the River|River",
+          "broken": true
+        }
+      ],
+      "name": "Building",
+      "pid": "3",
+      "position": {
+        "x": "401",
+        "y": "312"
+      }
+    },
+    {
+      "text": "You are at the River. Where do you go?\n\n[[Go to the Field|Field]]\n\n[[Go to the Building|Building]]\n\n[[Go to the Bridge|Bridge]]",
+      "links": [
+        {
+          "name": "Go to the Field|Field",
+          "link": "Go to the Field|Field",
+          "broken": true
+        },
+        {
+          "name": "Go to the Building|Building",
+          "link": "Go to the Building|Building",
+          "broken": true
+        },
+        {
+          "name": "Go to the Bridge|Bridge",
+          "link": "Go to the Bridge|Bridge",
+          "broken": true
+        }
+      ],
+      "name": "River",
+      "pid": "4",
+      "position": {
+        "x": "285",
+        "y": "263"
+      }
+    }
+  ],
+  "name": "Story 2",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "5381D8C8-B1D9-4B9D-A990-F173F75EB1B6"
+}
+
